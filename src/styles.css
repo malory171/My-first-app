@@ -1,0 +1,91 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  background-color: rgb(237, 237, 237);
+}
+
+header {
+  border-bottom: 1px solid rgb(237, 237, 237);
+  padding: 0 0 30px 0;
+}
+.weather-app {
+  background-color: white;
+  display: block;
+  max-width: 600px;
+  border: 0px solid;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgb(149, 142, 150, 0.08);
+  margin: 60px auto;
+  padding: 30px;
+}
+.enterCity {
+  background-color: rgb(237, 237, 237);
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 60%;
+}
+.search {
+  background-color: rgba(130, 178, 183, 0.8);
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 20px 30px;
+  margin-left: 5px;
+}
+main {
+  padding: 30px 0;
+}
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.actual-details {
+  margin: 16px 0;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  line-height: 24px;
+}
+.current-weather strong {
+  color: rgb(108, 185, 193);
+}
+.actual-temperature {
+  position: relative;
+  top: 0px;
+}
+.actual-temperature-emoji {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+}
+.actual-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+.actual-temperature-degree {
+  position: relative;
+  font-size: 28px;
+  top: -38px;
+}
+footer {
+  border-top: 1px solid rgb(237, 237, 237);
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+footer p {
+  text-align: center;
+}
+a {
+  color: rgb(89, 152, 159);
+}

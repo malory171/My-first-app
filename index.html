@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>My weather application</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <input
+            class="enterCity"
+            type="search"
+            placeholder="Enter a city..."
+            id="search-input"
+            required
+          />
+          <input class="search" type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-info">
+          <div class="current-weather">
+            <h1 class="current-city" id="current-city">Paris</h1>
+            <p class="actual-details">
+              <span id="actual-time"> Saturday 15:32</span>, moderate rain
+              <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="actual-temperature">
+            <span class="actual-temperature-emoji"> ☀️ </span
+            ><span class="actual-temperature-value" id="current-temperature"
+              >14</span
+            ><span class="actual-temperature-degree">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a
+            href="https://www.shecodes.io/graduates/135692-malory-mezierre"
+            target="_blank"
+            >Malory Mézierre</a
+          >
+          and is <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
